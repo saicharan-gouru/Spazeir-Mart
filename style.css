@@ -29,8 +29,11 @@ body {
 }
 
 .hero-category-name {
+    color: var(--white);
+    text-decoration: none;
     font-style: italic;
     cursor: pointer;
+    border: 2px solid var(--primary-color);
 }
 
 .categories {
@@ -100,7 +103,8 @@ body {
     cursor: pointer;
 }
 
-.fab:hover {
+.fab:hover,
+.hero-category-name:hover {
     border-bottom: 2px solid var(--gold);
 }
 
