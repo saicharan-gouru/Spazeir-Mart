@@ -59,3 +59,8 @@ body {
     max-width: 80%;
     margin: auto;
 }
+
+.hero-category-name {
+    font-style: italic;
+    cursor: pointer;
+}
