@@ -7,32 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spazeir Mart</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://spazeir-ui.netlify.app/CSS/components.css" rel="stylesheet" type="text/css" />
+    <link href="https://spazeir-ui.netlify.app/Components/Card/card.css" rel="stylesheet" type="text/css" />
+    <link href="https://spazeir-ui.netlify.app/Components/Input/input.css" rel="stylesheet" type="text/css" />
+    <link href="https://spazeir-ui.netlify.app/Components/Button/button.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div class="hero-header">
-        <p class="brand-name">Spazeir Mart</p>
+    <header class="hero-header">
+        <p class="hero-brand-name">Spazeir Mart</p>
         <p class="hero-category-name">Grocery</p>
         <input class="input-textbox" type="text" placeholder="Search here..." name="text" />
         <button class="button primary-yellow">Login</button>
-        <button class="button primary-yellow">Cart</button>
-        <button class="button primary-yellow">Wishlist</button>
-    </div>
+        <a><span class="fab fa-solid fa-cart-shopping"></span></a>
+        <a><span class="fab fa-solid fa-heart"></span></a>
+    </header>
+
     <div class="categories">
-        <div class="child">
+        <div class="category-card">
             <img class="category-image" src="https://rukminim1.flixcart.com/flap/128/128/image/50474c.jpg?q=100" />
             <p class="category-name"> Staples </p>
         </div>
-        <div class="child">
+        <div class="category-card">
             <img class="category-image" src="https://rukminim1.flixcart.com/flap/128/128/image/9fbd36.jpg?q=100" />
             <p class="category-name">Snacks</p>
         </div>
-        <div class="child">
+        <div class="category-card">
             <img class="category-image" src="https://rukminim1.flixcart.com/flap/128/128/image/8014b1.jpg?q=100" />
             <p class="category-name">Diary and eggs</p>
         </div>
-        <div class="child">
+        <div class="category-card">
             <img class="category-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.G8f4DulC-TuHudsCxHSwjgHaHa%26pid%3DApi&f=1" />
             <p class="category-name">Vegetables</p>
         </div>
@@ -40,17 +43,57 @@
 
     <div class="main">
         <img src="hero-image.svg" class="hero-image" />
+        <h1>Deals of the day</h1>
+        <div class="deals-of-the-day">
+            <div class="hero-container2 ">
+                <div class="container1 ">
+                    <img class="hero-img " src="https://thexelastore.com.gt/wp-content/uploads/2020/03/Coca-Cola-2.5-L-6-unidades.jpg " />
+                    <div class="content ">
+                        <h2 class="hero-heading ">Coco cola drinks(2L)</h2>
+                        <h6>Buy 1 Get 1 Free <b>@199.rs</b></h6>
+                        <p class="desc ">Get 2 bottles of coco cola worth rs.399 at rs.199 for this new year. Hurry up!</p>
+                    </div>
+                </div>
+                <div class="container2 ">
+                    <button class="btn ">Buy now</button>
+                    <button class="btn ">Add to cart</button>
+                    <i class="far fa-heart "></i>
+                    <i class="fas fa-share "></i>
+                    <i class="fas fa-ellipsis-v "></i>
+                </div>
+            </div>
+
+            <div class="hero-container2 ">
+                <div class="container1 ">
+                    <img class="hero-img " src="https://i5.walmartimages.com/asr/9e865f5e-75c1-404b-97c8-f3543175273a.e7a119cee380b302b865d0902293db54.jpeg " />
+                    <div class="content ">
+                        <h2 class="hero-heading ">Lays(Pack of 5)</h2>
+                        <h6><b>@35.rs</b></h6>
+                        <p class="desc ">Get 5 packets pf lays worth rs.50 at rs.35 for this new year. Hurry up!</p>
+                    </div>
+                </div>
+                <div class="container2 ">
+                    <button class="btn ">Buy now</button>
+                    <button class="btn ">Add to cart</button>
+                    <i class="far fa-heart "></i>
+                    <i class="fas fa-share "></i>
+                    <i class="fas fa-ellipsis-v "></i>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <div class="hero-footer">
+    <footer class="hero-footer">
         <div class="social">
             <a href="https://www.linkedin.com/in/saicharangouru/" target="_blank" rel="noopener noreferrer"><span class="fab fa-linkedin"></span></a>
             <a href="https://twitter.com/saicharangouru" target="_blank" rel="noopener noreferrer"><span class="fab fa-twitter"></span></a>
             <a href="https://github.com/saicharan-gouru/" target="_blank" rel="noopener noreferrer"><span class="fab fa-github"></span></a>
         </div>
-        <p>Made with 💖 by <a class="profile" href="https://saicharangouru.netlify.app" target="_blank" rel="noopener noreferrer">Saicharan Gouru</a></p>
+        <p>Made with 💖 by <a class="footer-credits" href="https://saicharangouru.netlify.app" target="_blank" rel="noopener noreferrer">Saicharan Gouru</a></p>
         <small>ⓒ Spazeir Mart | 2022</small>
-    </div>
+    </footer>
+
     <script src="https://kit.fontawesome.com/bbba0f11e7.js " crossorigin="anonymous "></script>
 </body>
 
