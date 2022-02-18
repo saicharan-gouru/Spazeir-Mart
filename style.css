@@ -114,3 +114,7 @@ body {
     color: var(--gold);
     font-weight: bold;
 }
+
+.active {
+    border-bottom: 2px solid var(--gold);
+}
