@@ -53,3 +53,7 @@ body {
     padding: 10px;
     margin: 0;
 }
+
+.active {
+    border-bottom: 2px solid var(--gold);
+}
