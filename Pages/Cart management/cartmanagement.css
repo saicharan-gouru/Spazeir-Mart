@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #2563EB;
+    --gold: rgb(253, 196, 52);
+    --white: #ffff;
+    --black: rgba(0, 0, 0, 0.8);
+}
+
+.cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.quantity-container {
+    margin-left: 2rem;
+}
+
+#quantity {
+    width: 30%;
+}
+
+.cart-button {
+    margin-bottom: 0;
+    padding: 10px;
+    width: 80%;
+}
+
+.hero-container1:hover {
+    box-shadow: 0 5px 15px var(--black);
+}
+
+.price-details-container {
+    width: 30%;
+}
+
+.price-view-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-placeorder {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Management</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://spazeir-ui.netlify.app/Components/Card/card.css" rel="stylesheet" type="text/css" />
+    <link href="https://spazeir-ui.netlify.app/Components/Input/input.css" rel="stylesheet" type="text/css" />
+    <link href="https://spazeir-ui.netlify.app/Components/Button/button.css" rel="stylesheet" type="text/css" />
+    <link href="cartmanagement.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header class="hero-header">
+        <p class="hero-brand-name">Spazeir Mart</p>
+        <a href="/index.html" class="hero-category-name active">
+            <p>Grocery</p>
+        </a>
+        <input class="input-textbox" type="text" placeholder="Search here..." name="text" />
+        <button class="button primary-yellow">Login</button>
+        <a><span class="fab fa-solid fa-cart-shopping"></span></a>
+        <a href="/Pages/Wishlist/wishlist.html"><span class="fab fa-solid fa-heart"></span></a>
+    </header>
+
+
+    <main>
+        <div class="cart">
+            <div class="cart-products-container">
+                <div class="hero-container1">
+                    <div class="container1">
+                        <img class="hero-img" alt="thumpsup" src="https://thexelastore.com.gt/wp-content/uploads/2020/03/Coca-Cola-2.5-L-6-unidades.jpg" />
+                        <div class="content ">
+                            <h2 class="hero-heading ">Cool drinks</h2>
+                            <h6>Rs.199 (50% off)</h6>
+                            <div class="quantity-container">
+                                <label for="quantity">Quantity</label>
+                                <input id="quantity" type="number" min="1" />
+                            </div>
+                            <button class="button primary-green cart-button">Remove from cart</button>
+                            <button class="button primary-green cart-button">Move to wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="price-details-container">
+                <div class="price-details">
+                    <h3>Price details</h3>
+                    <hr>
+                    <div class="price-view-container">
+                        <div>
+                            <p>price(2 items):</p>
+                            <p>Discount:</p>
+                            <p>Delivery charges:</p>
+                        </div>
+                        <div>
+                            <p>Rs.399</p>
+                            <p>Rs.-50</p>
+                            <p>Rs.0</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="price-view-container">
+                        <div>
+                            <p><b>Total Amount:</b></p>
+                        </div>
+                        <div>
+                            <p>Rs.349</p>
+                        </div>
+                    </div>
+                    <button class="button primary-blue btn-placeorder">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/bbba0f11e7.js " crossorigin="anonymous "></script>
+</body>
+
+</html>
