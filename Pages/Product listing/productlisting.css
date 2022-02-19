@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #2563EB;
+    --gold: rgb(253, 196, 52);
+    --white: #ffff;
+    --black: rgba(0, 0, 0, 0.8);
+    --alice-blue: aliceblue;
+}
+
+.hero-header {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--white);
+    gap: 2rem;
+    padding: 0rem 2rem;
+}
+
+.hero-brand-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.fab {
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1rem;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.fab:hover,
+.hero-category-name:hover {
+    border-bottom: 2px solid var(--gold);
+}
+
+.hero-category-name {
+    text-decoration: none;
+    color: var(--white);
+    font-style: italic;
+    cursor: pointer;
+    border: 2px solid var(--primary-color);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-areas: "filter products";
+    gap: 2rem;
+}
+
+.filter {
+    grid-area: filter;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.products-cards {
+    background-color: var(--alice-blue);
+    grid-area: products;
+    padding: 1rem;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.filter-clear {
+    margin-left: 5rem;
+    color: var(--black);
+}
