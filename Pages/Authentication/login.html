@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://spazeir-ui.netlify.app/Components/Input/input.css" rel="stylesheet" type="text/css" />
+    <link href="https://spazeir-ui.netlify.app/Components/Button/button.css" rel="stylesheet" type="text/css" />
+    <link href="login.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="hero-header">
+        <p class="hero-brand-name">Spazeir Mart</p>
+        <a href="/index.html" class="hero-category-name">
+            <p>Grocery</p>
+        </a>
+        <input class="input-textbox" type="text" placeholder="Search here..." name="text" />
+        <button class="button primary-yellow">Login</button>
+        <a href="/Pages/Cart management/cartmanagement.html"><span class="fab fa-solid fa-cart-shopping"></span></a>
+        <a href="/Pages/Wishlist/wishlist.html"><span class="fab fa-solid fa-heart"></span></a>
+    </header>
+
+    <main class="main-container">
+        <div class="login-container">
+            <h3>
+                <center>Login</center>
+            </h3>
+            <label for="email">Email address:</label><br>
+            <input type="email" id="email" class="input" />
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" class="input" />
+            <input type="checkbox" id="remember-me" />
+            <label for="remember-me"><small>Remember me</small></label>
+            <a href="/" id="forgot-pwd"><small>Forgot your password?</small></a>
+            <button class="button primary-blue btn-login">Login</button>
+            <span><small> new user?</small></span>
+            <a href="/Pages/Authentication/signup.html"> <small>create new account.</small></a>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/bbba0f11e7.js " crossorigin="anonymous "></script>
+</body>
+
+</html>
