@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #2563EB;
+    --gold: rgb(253, 196, 52);
+    --white: #ffff;
+    --black: rgba(0, 0, 0, 0.8);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.signup-container {
+    width: 350px;
+    padding: 2rem;
+    border: 2px solid var(--black);
+}
+
+.input {
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.btn-signup {
+    width: 100%;
+    margin: 2rem 0rem;
+}
