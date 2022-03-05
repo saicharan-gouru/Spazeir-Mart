@@ -118,3 +118,34 @@ body {
 .active {
     border-bottom: 2px solid var(--gold);
 }
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+    .hero-header {
+        flex-direction: column;
+        padding: 2px;
+    }
+    .categories {
+        flex-direction: column;
+    }
+    .category-card {
+        width: 100%;
+    }
+    .main {
+        max-width: 100%;
+    }
+    .deals-of-the-day {
+        flex-direction: column;
+    }
+    .hero-image {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 1024px) {
+    .hero-header {
+        padding: 0px;
+    }
+    .input-textbox {
+        width: 40%;
+    }
+}
