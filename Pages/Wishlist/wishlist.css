@@ -19,6 +19,12 @@ body {
     color: var(--white);
     gap: 2rem;
     padding: 0rem 2rem;
+    position: fixed;
+    width: 96%;
+}
+
+main {
+    padding-top: 10%;
 }
 
 .hero-brand-name {

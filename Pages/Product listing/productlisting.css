@@ -20,6 +20,8 @@ body {
     color: var(--white);
     gap: 2rem;
     padding: 0rem 2rem;
+    position: fixed;
+    width: 96%;
 }
 
 .hero-brand-name {
@@ -55,12 +57,14 @@ body {
     grid-template-columns: 200px;
     grid-template-areas: "filter products";
     gap: 2rem;
+    padding-top: 10%;
 }
 
 .filter {
     grid-area: filter;
     height: 100vh;
     padding: 1rem;
+    position: fixed;
 }
 
 .products-cards {
